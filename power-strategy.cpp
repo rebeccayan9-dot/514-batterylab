@@ -27,13 +27,13 @@
 
 // WiFi credentials
 const char* ssid     = "UW MPSK";
-const char* password = "LYcSq73RVKmLnNgM";
+const char* password = "****";
 
 // Firebase configuration
 UserAuth user_auth(
-    "AIzaSyB54AKpPGSN-u8UVwBFdJEZST-ULDNmc34",
+    "****",
     "qianmu@uw.edu",
-    "Rebecca0109?"
+    "-------?"
 );
 
 FirebaseApp app;
