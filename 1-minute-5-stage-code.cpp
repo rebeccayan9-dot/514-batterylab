@@ -16,7 +16,7 @@
 
 // WiFi credentials - VERIFIED CORRECT
 const char* ssid     = "UW MPSK";
-const char* password = "LYcSq73RVKmLnNgM";
+const char* password = "123456";
 
 // Firebase configuration
 UserAuth user_auth(

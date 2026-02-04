@@ -16,13 +16,13 @@
 
 // WiFi credentials
 const char* ssid     = "UW MPSK";
-const char* password = "LYcSq73RVKmLnNgM";
+const char* password = "123";
 
 // Firebase configuration
 UserAuth user_auth(
-    "AIzaSyB54AKpPGSN-u8UVwBFdJEZST-ULDNmc34",
+    "123",
     "qianmu@uw.edu",
-    "Rebecca0109?"
+    "Rebecca"
 );
 
 FirebaseApp app;
@@ -96,7 +96,7 @@ void setup()
     ssl_client.setHandshakeTimeout(10);
     initializeApp(async_client, app, getAuth(user_auth), processData, "authTask");
     app.getApp<RealtimeDatabase>(Database);
-    Database.url("https://esp-project-7e4c3-default-rtdb.firebaseio.com/");
+    Database.url("https://12356");
     
     // Wait for Firebase ready
     Serial.print("Waiting for Firebase auth");
